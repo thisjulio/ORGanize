@@ -1,0 +1,212 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Verdana, Sans;
+	text-decoration: none;
+}
+body{
+	background-color: #EFEFEF;
+}
+/*
+
+	BEGIN-HEADER
+
+*/
+#topo{
+	background: #5C9FB2 url("../img/minerva.png") no-repeat left top;
+	height: 80px;
+	width: 100%;
+}
+#topo span{
+	text-align: left;
+	float: left;
+	margin-left: 164px;
+	font-size: 48px;
+	color: #666;
+}
+#topo span b{
+	color: #333;
+	font-weight: bold;
+}
+/*
+
+	END-HEADER
+	BEGIN-MENU
+
+*/
+#menu{
+	background-color: #9AC4CF;
+	height: 35px;
+	width: 100%;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 14px;
+}
+#menu #welcome{
+	color: #FFF;
+	float: left;
+	margin: 7px 0 0 10px;
+}
+#menu #welcome b{
+	color: #DFDFDF;
+}
+#menu #links{
+	float: right;
+	margin: 7px 10px 0 0;
+	color: #DFDFDF;
+}
+#menu #links a{
+	color: #000;
+}
+#menu #links a:hover,#menu #links a:active{
+	color: #FFF;
+}
+
+#logf{
+	display: none;
+	float: right;
+	font-size: 10px;
+}
+/*
+
+	END-MENU
+	BEGIN-CONTENT
+
+*/
+#consult{
+	margin: 2% 20% 5%;
+}
+
+#content{
+	background-color: #FFF;
+	border: 1px solid #DFDFDF;
+	border-radius: 10px;
+	width: 960px;
+	margin-top: 40px;
+	padding: 10px 0 50px 0;
+}
+#content #title{
+	color: #000;
+	font-size: 20px;
+}
+#content hr{
+	width: 98%;
+	height: 1px;
+	background-color: #DFDFDF;
+	margin-bottom: 30px;
+}
+#content #consult #searchbox{
+	height: 49px;
+	border: 1px solid #DFDFDF;
+	width: 500px;
+	color: #333;
+	float:left;
+}
+#content #consult #search-button{
+	border: 0;
+	width: 35px;
+	height: 49px;
+	margin-left: -6px;
+	position:relative;
+	float:left;
+}
+.calendario {
+	border: 1px solid #000;
+}
+.calendario h1 a:link,.calendario h1 a:active{
+	font-size: 13px;
+	color: #9AC4CF;
+}
+.calendario .extra {
+	color: #CFCFCF;
+}
+.calendario .dia a {
+	font-weight: bold;
+	color: #9AC4CF;
+}
+.calendario .dia a:hover{
+	color: #F00;
+}
+#result {
+	background-color: #9AC4CF;
+	font-size: 12px;
+}
+#result th {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFF
+}
+#result td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 10px;
+}
+#result input {
+	width:130px;
+	height: 30px;
+	font-size: 12px;
+	border: 1px solid #FFF;
+	background-color: #9AC4CF;
+	text-align: center;
+}
+input {
+	border: 1px solid #9AC4CF;
+}
+textarea {
+	border: 1px solid #9AC4CF;
+}
+/*
+	TABELA
+*/
+
+#consult thead th{
+  background-color:#ad2525;
+  padding:6px;
+  color:#fff;
+  text-align:center;
+  font-size:14px;
+}
+
+#consult thead th.header{
+  cursor:pointer;
+}
+
+#consult tbody td{
+  padding:6px;
+  text-align:center;
+  color:#333;
+}
+
+t#consult tbody tr.odd td{
+  background-color:#ffffcc;
+}
+
+#consult tbody tr.hover td{
+  background-color:#a9d0f5;
+}
+
+#consult tbody tr.selected td{
+  background-color:#a9f5a9!important;
+}
+
+/*
+
+	END-CONTENT
+	BEGIN-FOOTER
+
+*/
+#footer{
+	margin-top: 10px;
+	list-style-type: none;
+	font-size: 9px;
+	color: #333;
+}
+#footer a{
+	color: #666;
+}
+#footer a:hover{
+	color: #000;
+}

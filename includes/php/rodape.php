@@ -1,0 +1,3 @@
+		<div id="footer">
+			A obra <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">ORGanize</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="Nothing" property="cc:attributionName" rel="cc:attributionURL">Julio Cesar da S. Pereira, Frederico Souza, Mateus C. Viegas, Marcelo Martins</a> foi licenciada com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons<br />- Atribuição -<br />Partilha nos Mesmos Termos 3.0 Não Adaptada</a>.<br /><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+		</div>
