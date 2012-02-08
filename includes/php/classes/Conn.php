@@ -1,14 +1,14 @@
 <?php
 	class Conn {
-		public $unidade = a_julio_cesar;	//DB
-		public $local= AUDITORIO;		//TABLE
+		public $unidade = "a_julio_cesar";	//DB
+		public $local= "AUDITORIO";		//TABLE
 		
 		public $usuarios;
 		public $tabela;
 
-		private $host = localhost;				//HOST DO DB
-		private $user = a_julio_cesar;			//USUÁRIO
-		private $psw = YKH4pSMZFS3EuFJ8;			//SENHA
+		private $host = "localhost";				//HOST DO DB
+		private $user = "a_julio_cesar";			//USUÁRIO
+		private $psw = "YKH4pSMZFS3EuFJ8";			//SENHA
 		public $db;
 		function __construct(){
 			$this->usuarios = $this->unidade.".USER";
